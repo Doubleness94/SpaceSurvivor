@@ -1,0 +1,1005 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/hub/Unity/SpaceSurvivor/SpaceSurvivor
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57096
+Successfully changed project path to: D:/hub/Unity/SpaceSurvivor/SpaceSurvivor
+D:/hub/Unity/SpaceSurvivor/SpaceSurvivor
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 478.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/hub/Unity/SpaceSurvivor/SpaceSurvivor/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026935 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 117.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1104ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (85ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.065647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\hub\Unity\SpaceSurvivor\SpaceSurvivor\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\hub\Unity\SpaceSurvivor\SpaceSurvivor\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2543ms)
+		BeginReloadAssembly (407ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (1862ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (829ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (403.3 KB). Loaded Objects now: 3967.
+Memory consumption went from 141.0 MB to 140.6 MB.
+Total: 8.433200 ms (FindLiveObjects: 0.420300 ms CreateObjectMapping: 0.366500 ms MarkObjects: 7.041600 ms  DeleteObjects: 0.603500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 563560.156946 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-2_comp_dir.exr
+  artifactKey: Guid(dbb6cdfd9f008f640a80b14223c463b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-2_comp_dir.exr using Guid(dbb6cdfd9f008f640a80b14223c463b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fdd0a5831baee67a515edc9d66a047') in 0.280956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-70_comp_light.exr
+  artifactKey: Guid(6745659afabb87848b8798e766aa3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-70_comp_light.exr using Guid(6745659afabb87848b8798e766aa3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b059a599469746e32990c39ddcba2f7') in 0.203008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-49_comp_dir.exr
+  artifactKey: Guid(d314c7fc678c6eb4a900cd2fc2721a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-49_comp_dir.exr using Guid(d314c7fc678c6eb4a900cd2fc2721a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523ab86b18eeb3020d94134a3f155739') in 0.141949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-22_comp_dir.exr
+  artifactKey: Guid(be7a5d8050cbaab4ead5697714a5b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-22_comp_dir.exr using Guid(be7a5d8050cbaab4ead5697714a5b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1517358c70fe1f2e8110e599dfc8a8a0') in 0.119856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-70_comp_dir.exr
+  artifactKey: Guid(66fe2df062f1f39448fbbeb82a8de26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-70_comp_dir.exr using Guid(66fe2df062f1f39448fbbeb82a8de26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebb624311ac55cc762d8d8469914420') in 0.149666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-72_comp_dir.exr
+  artifactKey: Guid(15ca245e6ec4f6e46b19173dacee54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-72_comp_dir.exr using Guid(15ca245e6ec4f6e46b19173dacee54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb9bdf4df6bb5b00ebe3629e096baed') in 0.106185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-47_comp_light.exr
+  artifactKey: Guid(72c98c291f2ad36488241918af734727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-47_comp_light.exr using Guid(72c98c291f2ad36488241918af734727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36be6e9a60e2f6ef524df79429dcca7') in 0.068419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/LightmapSnapshot.asset
+  artifactKey: Guid(02b6f832148f4284bbcbb7f284f7c537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/LightmapSnapshot.asset using Guid(02b6f832148f4284bbcbb7f284f7c537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightmapSnapshot’ is inconsistent because 238 files out of 1190 are missing. Please use Generate Lighting to rebuild the lighting data.
+Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: 'e8810815b8749f2852cd8dae230afd6c') in 4.512348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-60_comp_dir.exr
+  artifactKey: Guid(23fc3260e0860fe4cbe6f12060452db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-60_comp_dir.exr using Guid(23fc3260e0860fe4cbe6f12060452db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec213239c85084de51922d043e6c6e7') in 0.098259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-53_comp_light.exr
+  artifactKey: Guid(27da6ef7e152f9b4e92de60e6c9a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-53_comp_light.exr using Guid(27da6ef7e152f9b4e92de60e6c9a244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0da9b62283c6a26d9baf53dbe78d3f') in 0.098102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-5_comp_light.exr
+  artifactKey: Guid(f9ab7ac77e0de7f4fb9b87a95f43cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-5_comp_light.exr using Guid(f9ab7ac77e0de7f4fb9b87a95f43cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04afd3d2b7ff3f6cfacdf8c61cb58df') in 0.096485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-17_comp_dir.exr
+  artifactKey: Guid(4f263c4647403fc4fbbd4e64c9ed76f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-17_comp_dir.exr using Guid(4f263c4647403fc4fbbd4e64c9ed76f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957cd01d5b6fe6b1c436609218be7d12') in 0.166113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-5_comp_dir.exr
+  artifactKey: Guid(9ef7640f868c69c4ab4de458de17a1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-5_comp_dir.exr using Guid(9ef7640f868c69c4ab4de458de17a1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a5661498f98fb096c402483e3e9e73') in 0.147440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-45_comp_light.exr
+  artifactKey: Guid(9f0d700895201664d8e45c4eb62eca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-45_comp_light.exr using Guid(9f0d700895201664d8e45c4eb62eca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2fccabfeee01e4726e1b93bad36359') in 0.104593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-52_comp_light.exr
+  artifactKey: Guid(618a63025c97e7d43b9bb04f8fde2f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-52_comp_light.exr using Guid(618a63025c97e7d43b9bb04f8fde2f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5116bc7f1789e211ff633cb67e0e3a') in 0.126539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_light.exr
+  artifactKey: Guid(2803f616fc582c3429db62491a0aa66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_light.exr using Guid(2803f616fc582c3429db62491a0aa66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c957cfc27a5b989949dca6d036c1fd') in 0.140292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-34_comp_light.exr
+  artifactKey: Guid(0f3697a5af1087b4d90e0047ef70a549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-34_comp_light.exr using Guid(0f3697a5af1087b4d90e0047ef70a549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda0ede4886a9f232a82aee07347393c') in 0.153670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-22_comp_light.exr
+  artifactKey: Guid(3d931c11ef3b8bb438898c2712d56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-22_comp_light.exr using Guid(3d931c11ef3b8bb438898c2712d56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696beef295b98111559aea27de661f86') in 0.099849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-66_comp_light.exr
+  artifactKey: Guid(e4cccdf475a2d994e8eeb05e8d7c9d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-66_comp_light.exr using Guid(e4cccdf475a2d994e8eeb05e8d7c9d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d00a19a55df9afa84b4efc2845cf59') in 0.075058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-55_comp_light.exr
+  artifactKey: Guid(2cef999389899834a972126f1911e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-55_comp_light.exr using Guid(2cef999389899834a972126f1911e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e89f25b4bfdbb80c9f6be034aa7117a') in 0.090835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-69_comp_light.exr
+  artifactKey: Guid(3a4a4c7a11fc9e24dbff6fc9103fe54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-69_comp_light.exr using Guid(3a4a4c7a11fc9e24dbff6fc9103fe54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc930cf256c72f1e5bcc8a6c16d7460') in 0.096893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-72_comp_light.exr
+  artifactKey: Guid(c590107c07226be429e9760fa5bc2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-72_comp_light.exr using Guid(c590107c07226be429e9760fa5bc2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e546b9bb129f1ce80378f3960d068') in 0.110388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-48_comp_light.exr
+  artifactKey: Guid(935ff240678dd2042b7905f2e904db1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-48_comp_light.exr using Guid(935ff240678dd2042b7905f2e904db1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b07f31ea34c95432253514cd3cfa80') in 0.146906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_dir.exr
+  artifactKey: Guid(68386ef40aca99b41bb22c86bd7b9ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_dir.exr using Guid(68386ef40aca99b41bb22c86bd7b9ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb15e5bbb5cfd3ad8e5d15ab15712798') in 0.117449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-27_comp_light.exr
+  artifactKey: Guid(6d310e1f4c5d46248b3abf6ee1325635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-27_comp_light.exr using Guid(6d310e1f4c5d46248b3abf6ee1325635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f921f7ce90f00c955a6b4251f3e96a35') in 0.165670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-64_comp_light.exr
+  artifactKey: Guid(5856b583646f6f64bb00390f4b30b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-64_comp_light.exr using Guid(5856b583646f6f64bb00390f4b30b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bff1ddf33962088052c32b9250845c3') in 0.156363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-28_comp_dir.exr
+  artifactKey: Guid(4aefdbb4fbc287241a32e16570c18a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-28_comp_dir.exr using Guid(4aefdbb4fbc287241a32e16570c18a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d210f8575250bf312a7cfdb4d3cf9f3') in 0.108114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-15_comp_dir.exr
+  artifactKey: Guid(71fd97bd6dc321e4993e6372dd1613df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-15_comp_dir.exr using Guid(71fd97bd6dc321e4993e6372dd1613df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691b8e775fb4044f7bb3915ac09bf4e3') in 0.105785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-23_comp_light.exr
+  artifactKey: Guid(2b11cf77d50c42341aa28ea745ef6ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-23_comp_light.exr using Guid(2b11cf77d50c42341aa28ea745ef6ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c5619c429cfecb152f9717aa589dbb') in 0.113764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-26_comp_dir.exr
+  artifactKey: Guid(f8cf5ef4b48cab64e8904bb9d6300af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-26_comp_dir.exr using Guid(f8cf5ef4b48cab64e8904bb9d6300af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1fb599dca69a939bdf6a3dcbfb79eb') in 0.104237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_dir.exr
+  artifactKey: Guid(cc302ed81d8377346993d1435caa3cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_dir.exr using Guid(cc302ed81d8377346993d1435caa3cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54d27105f6f5aab01a0de401ca7c40b') in 0.097879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-43_comp_dir.exr
+  artifactKey: Guid(fa2bf76f9e36d5a4ebe3d359faa57463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-43_comp_dir.exr using Guid(fa2bf76f9e36d5a4ebe3d359faa57463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927ef4d7f5cd54595b9fed08bc53f110') in 0.139389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-30_comp_light.exr
+  artifactKey: Guid(1b2360be8cc5ed4478e78339135aefdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-30_comp_light.exr using Guid(1b2360be8cc5ed4478e78339135aefdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c598f22117409e785f82d3047b6af88f') in 0.138956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-8_comp_light.exr
+  artifactKey: Guid(adbf5c749bcac2744b5b5d540bcae8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-8_comp_light.exr using Guid(adbf5c749bcac2744b5b5d540bcae8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8b3f6c936a7b9df433934f408d17ef') in 0.100015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-46_comp_light.exr
+  artifactKey: Guid(d292ed297e26731469970d3fc10ca4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-46_comp_light.exr using Guid(d292ed297e26731469970d3fc10ca4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab75c9e6b7423c62b6af7dbf6186f870') in 0.109975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-9_comp_dir.exr
+  artifactKey: Guid(1bef6c30391f2e94ebf9c043516d3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-9_comp_dir.exr using Guid(1bef6c30391f2e94ebf9c043516d3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e514f63e1e38b15356ef08ae24e0079c') in 0.083771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-62_comp_light.exr
+  artifactKey: Guid(faea7dcfb58f8dd4584a34aa0eafe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-62_comp_light.exr using Guid(faea7dcfb58f8dd4584a34aa0eafe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b52365a1b1781a67edee8b0925a121f') in 0.361693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-51_comp_dir.exr
+  artifactKey: Guid(280d72638b221f84cbee85b96f859594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-51_comp_dir.exr using Guid(280d72638b221f84cbee85b96f859594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924c2b7347fd4bc62f582a98fad381cd') in 0.100257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/SkyboxProbe-0.exr
+  artifactKey: Guid(de1ac2b25f7fdbc46bd3ce6d7f8f0ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/SkyboxProbe-0.exr using Guid(de1ac2b25f7fdbc46bd3ce6d7f8f0ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2660dab1c6e3ab1278a2f2674644952') in 0.179350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-37_comp_light.exr
+  artifactKey: Guid(1cba687fa1ab4d342ba8be1cc1c5594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-37_comp_light.exr using Guid(1cba687fa1ab4d342ba8be1cc1c5594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab12397567b10d496a906efa889e633') in 0.089287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-31_comp_light.exr
+  artifactKey: Guid(78994eb85e93e544d8697d72c5f7a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-31_comp_light.exr using Guid(78994eb85e93e544d8697d72c5f7a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b7519ed09fbe3c3c92f81307966ada') in 0.123051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-75_comp_light.exr
+  artifactKey: Guid(47e46a3b83818e34f8f316f2c1376b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-75_comp_light.exr using Guid(47e46a3b83818e34f8f316f2c1376b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17827c8cc9557d9ea133815fb553791') in 0.219000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-35_comp_light.exr
+  artifactKey: Guid(0a4a8b9b0cd4d3345b7d4016826a6bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-35_comp_light.exr using Guid(0a4a8b9b0cd4d3345b7d4016826a6bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3550f86f8f31393362a686dafa63b8') in 0.084471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-56_comp_light.exr
+  artifactKey: Guid(c35b1e45592188044af3df9d38311ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-56_comp_light.exr using Guid(c35b1e45592188044af3df9d38311ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b78495fd57f398b177e6b976b5d3a8') in 0.081129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-8_comp_dir.exr
+  artifactKey: Guid(6aedf5e921d406242af68c3f8aebfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-8_comp_dir.exr using Guid(6aedf5e921d406242af68c3f8aebfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2f64d0f763c08a1c65ace45e928abb') in 0.127358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-67_comp_dir.exr
+  artifactKey: Guid(30be956f63c505248b1696366982fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-67_comp_dir.exr using Guid(30be956f63c505248b1696366982fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4770ff29c55b00f207489a7714fb5a86') in 0.086154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_dir.exr
+  artifactKey: Guid(d9e0b8976d080e74794aac6bf6ce4433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_dir.exr using Guid(d9e0b8976d080e74794aac6bf6ce4433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78f08da4e8c7c309c617ccd11d7a4ca') in 0.128044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_light.exr
+  artifactKey: Guid(d5911793fc67f75408efacf9806ced7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_light.exr using Guid(d5911793fc67f75408efacf9806ced7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f937c5660a731c4652f587d7a6a465') in 0.131182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-46_comp_dir.exr
+  artifactKey: Guid(8ba0d4f115184a64e8001b62865c17f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-46_comp_dir.exr using Guid(8ba0d4f115184a64e8001b62865c17f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea24bd290d3f44edd96e60ac7922b51b') in 0.141941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-7_comp_light.exr
+  artifactKey: Guid(03f8ace19d95420428e6086a002d5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-7_comp_light.exr using Guid(03f8ace19d95420428e6086a002d5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6284b6185bac51c0ac4ba9cc643700f8') in 0.082319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-13_comp_dir.exr
+  artifactKey: Guid(7fad13ec1444b464d82e616a7bfe193e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-13_comp_dir.exr using Guid(7fad13ec1444b464d82e616a7bfe193e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a7d3f90b72d69aa9e6b9c62edb8371') in 0.164984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-73_comp_light.exr
+  artifactKey: Guid(2e562b55cd9aa13438d0511cf526423b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-73_comp_light.exr using Guid(2e562b55cd9aa13438d0511cf526423b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976726e0019d34f09e5e4fd36fba3db1') in 0.126138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-56_comp_dir.exr
+  artifactKey: Guid(6926887e554d56940ba9b048c4470af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-56_comp_dir.exr using Guid(6926887e554d56940ba9b048c4470af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374a0d535586725bef5aa45131fb5091') in 0.115666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-12_comp_light.exr
+  artifactKey: Guid(7933ccf832e24574ba96392181720198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-12_comp_light.exr using Guid(7933ccf832e24574ba96392181720198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adf8cf488c7b19afd1538e73e7fdc84') in 0.103034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-50_comp_dir.exr
+  artifactKey: Guid(c1e57bd8af38b5a489279fa807888a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-50_comp_dir.exr using Guid(c1e57bd8af38b5a489279fa807888a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590979727b1719e97d8409ebcc957e00') in 0.155808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary.unity
+  artifactKey: Guid(ad34cc71d391b204a9cac5544d2bfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary.unity using Guid(ad34cc71d391b204a9cac5544d2bfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3317633b3e370a1d8437351e7722ca76') in 0.023469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-7_comp_dir.exr
+  artifactKey: Guid(23b60bcf17bbee3409b86595c8c17fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-7_comp_dir.exr using Guid(23b60bcf17bbee3409b86595c8c17fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba6ff9c184115141acc8331c290520') in 0.076220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-9_comp_light.exr
+  artifactKey: Guid(44976a3cd4e25a8498ebe380de887ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-9_comp_light.exr using Guid(44976a3cd4e25a8498ebe380de887ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035c1dfcd6f118eb721072e8f05cc7bf') in 0.136406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-47_comp_dir.exr
+  artifactKey: Guid(10caebe27bf45a44a964d10f2bf94f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-47_comp_dir.exr using Guid(10caebe27bf45a44a964d10f2bf94f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6298eaafc66f5640b007311b826e4d4e') in 0.145318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-65_comp_dir.exr
+  artifactKey: Guid(aa6a8572dbaf83e4e91428142edcd87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-65_comp_dir.exr using Guid(aa6a8572dbaf83e4e91428142edcd87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9702efba8377fcef644042229bcb6d98') in 0.139762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-11_comp_dir.exr
+  artifactKey: Guid(beb201b69fdaf4d4c87a2fdc679beb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-11_comp_dir.exr using Guid(beb201b69fdaf4d4c87a2fdc679beb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30567ce443d6ce166f3c7e377db0150') in 0.124507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-49_comp_light.exr
+  artifactKey: Guid(53c149206dbc07c468458a8001ecf367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-49_comp_light.exr using Guid(53c149206dbc07c468458a8001ecf367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dd3298fc8153795768232abedf2cf4') in 0.116759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-77_comp_dir.exr
+  artifactKey: Guid(b8ed13cf648fa6245b61c76fe7beb764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-77_comp_dir.exr using Guid(b8ed13cf648fa6245b61c76fe7beb764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a8e2c71e8f5fa13d0a4c76d20e4325') in 0.124789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-33_comp_dir.exr
+  artifactKey: Guid(4d5ab4d07636a8b4591f6d0baf7f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-33_comp_dir.exr using Guid(4d5ab4d07636a8b4591f6d0baf7f480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10de7d530c3042f037a4a3305e2f1063') in 0.122782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_light.exr
+  artifactKey: Guid(8784db8c9d54d8e4ebab8b6b33260645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_light.exr using Guid(8784db8c9d54d8e4ebab8b6b33260645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404283e933a88e0c358a93c90655f953') in 0.123957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-76_comp_light.exr
+  artifactKey: Guid(1d2a39c3605fd4a4793608f81ee168d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-76_comp_light.exr using Guid(1d2a39c3605fd4a4793608f81ee168d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f65641a03556e2c97ea386b794dd60') in 0.106663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-39_comp_dir.exr
+  artifactKey: Guid(24f1f34b990bf5a4fbc0b1257e35ce1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-39_comp_dir.exr using Guid(24f1f34b990bf5a4fbc0b1257e35ce1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56d8b6ad5e9f6e675e7a8c657b105e4') in 0.078064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-57_comp_light.exr
+  artifactKey: Guid(cdf35f904a327c44abb525dba1de3a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-57_comp_light.exr using Guid(cdf35f904a327c44abb525dba1de3a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a036374909a169dc6e203e62f76fa10f') in 0.126273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-77_comp_light.exr
+  artifactKey: Guid(c4519f6731687844f955dc3006d3b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-77_comp_light.exr using Guid(c4519f6731687844f955dc3006d3b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36204797f92836e668bd4e626227b7d7') in 0.148433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1159.728008 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/LightingData.asset
+  artifactKey: Guid(4cde5ea532dcd9a4c96a7897be063596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/LightingData.asset using Guid(4cde5ea532dcd9a4c96a7897be063596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fb256cacd13b0c3f4baa1c8f3f2808') in 0.155417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-13_comp_light.exr
+  artifactKey: Guid(71199f05dee1f5542bd271d54de45238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-13_comp_light.exr using Guid(71199f05dee1f5542bd271d54de45238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13adda88966e3b1340fdfe782e0ea0a0') in 0.084406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-21_comp_dir.png
+  artifactKey: Guid(e434bcbb016166e4cb2898b6ff4e4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-21_comp_dir.png using Guid(e434bcbb016166e4cb2898b6ff4e4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651930771d00d84caa823e36772602a6') in 0.065184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-11_comp_dir.png
+  artifactKey: Guid(220a78cf6091e294581e866e98d1b3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-11_comp_dir.png using Guid(220a78cf6091e294581e866e98d1b3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53bcac72540f10518f8d85a12316a91') in 0.040659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-21_comp_light.exr
+  artifactKey: Guid(80101585d1574ce4ba56957909e4be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-21_comp_light.exr using Guid(80101585d1574ce4ba56957909e4be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52b8c8961310c985808990952f32e3b') in 0.030660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-2_comp_dir.png
+  artifactKey: Guid(c0c2a8f56b4229b49910581fdc35de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-2_comp_dir.png using Guid(c0c2a8f56b4229b49910581fdc35de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee9672a1cf0c60dfbe42818197a61d9') in 0.117520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-14_comp_dir.png
+  artifactKey: Guid(c30103716cae77b46914eef699447977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-14_comp_dir.png using Guid(c30103716cae77b46914eef699447977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05c4f708dc47fb2b027b88b735738e9') in 0.035310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-5_comp_light.exr
+  artifactKey: Guid(f9ab7ac77e0de7f4fb9b87a95f43cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-5_comp_light.exr using Guid(f9ab7ac77e0de7f4fb9b87a95f43cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12b0155d95f129efa82d0fb7dcae051') in 0.031748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-22_comp_light.exr
+  artifactKey: Guid(3d931c11ef3b8bb438898c2712d56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-22_comp_light.exr using Guid(3d931c11ef3b8bb438898c2712d56a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e047758eade7e3e61e1e010508481f73') in 0.030948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-6_comp_light.exr
+  artifactKey: Guid(a16d5daa7345b9545b45edbd4c2a71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-6_comp_light.exr using Guid(a16d5daa7345b9545b45edbd4c2a71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4247b7124e1412125c0a1383b3dd6313') in 0.047075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-16_comp_dir.png
+  artifactKey: Guid(189f19b486b1f9340bee3b1e8da5c1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-16_comp_dir.png using Guid(189f19b486b1f9340bee3b1e8da5c1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e30ef128efd9d69d102f4cadcd08859') in 0.028009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-19_comp_dir.png
+  artifactKey: Guid(5a9a89c1fedfe804c9ad94aa54af2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-19_comp_dir.png using Guid(5a9a89c1fedfe804c9ad94aa54af2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcf7bd63a502471616a2dab45196738') in 0.032765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-4_comp_dir.png
+  artifactKey: Guid(b6e4375e82278024ab72ef9bd29a8736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-4_comp_dir.png using Guid(b6e4375e82278024ab72ef9bd29a8736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d59335adcb776f67170aff444fdc15') in 0.032745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_dir.png
+  artifactKey: Guid(41a5fce179b3bfb44b80c94e7fcec880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_dir.png using Guid(41a5fce179b3bfb44b80c94e7fcec880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd800c238cf9e7d72c63a46c0f62e619') in 0.035318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-16_comp_light.exr
+  artifactKey: Guid(24b15cfcc4bba004bbabeca1d999974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-16_comp_light.exr using Guid(24b15cfcc4bba004bbabeca1d999974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b1bac8fab1f84ada6253ef44d0a9a1') in 0.033081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-8_comp_light.exr
+  artifactKey: Guid(adbf5c749bcac2744b5b5d540bcae8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-8_comp_light.exr using Guid(adbf5c749bcac2744b5b5d540bcae8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2606593a121b248e39ce7caf98a40942') in 0.034941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-4_comp_light.exr
+  artifactKey: Guid(d38428b2a70404248867fd190901a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-4_comp_light.exr using Guid(d38428b2a70404248867fd190901a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007f21bcd3da14c335b6fd0674f53005') in 0.029749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-1_comp_light.exr
+  artifactKey: Guid(17c0fb884df6c3c4a83a68855159dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-1_comp_light.exr using Guid(17c0fb884df6c3c4a83a68855159dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75c47be19186c41b29aac676e0e539a') in 0.037533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_light.exr
+  artifactKey: Guid(d5911793fc67f75408efacf9806ced7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-10_comp_light.exr using Guid(d5911793fc67f75408efacf9806ced7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4799158e92902f1aa1a11be27eaf4b2') in 0.032009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-11_comp_light.exr
+  artifactKey: Guid(ec3736727bc7cff458db35625c45bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-11_comp_light.exr using Guid(ec3736727bc7cff458db35625c45bf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa00922b49efcb8a66df6763f039761') in 0.030845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-28_comp_light.exr
+  artifactKey: Guid(5139f375c39764b41b621a9ee69a1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-28_comp_light.exr using Guid(5139f375c39764b41b621a9ee69a1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1248d891b8920eb316439d99a06b34af') in 0.031407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-26_comp_dir.png
+  artifactKey: Guid(b2a7ac1508afbba469ab2b76046f8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-26_comp_dir.png using Guid(b2a7ac1508afbba469ab2b76046f8e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f7dfabf49225e092711d76105ac525') in 0.026643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-27_comp_dir.png
+  artifactKey: Guid(ca887156727083e4aa3f0f6009624b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-27_comp_dir.png using Guid(ca887156727083e4aa3f0f6009624b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7967c71aee9c5dfee8455abb0819ffa6') in 0.029238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-27_comp_light.exr
+  artifactKey: Guid(6d310e1f4c5d46248b3abf6ee1325635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-27_comp_light.exr using Guid(6d310e1f4c5d46248b3abf6ee1325635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4367ea895e494f2f811ec2e0469fda41') in 0.030355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-24_comp_light.exr
+  artifactKey: Guid(7aa50bdf427c4fd448bd5cc818e25e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-24_comp_light.exr using Guid(7aa50bdf427c4fd448bd5cc818e25e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613386421bdaf46e4cf95b4bbb79b872') in 0.034224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-29_comp_light.exr
+  artifactKey: Guid(fb911be89d66b4c4580fbf87717746a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-29_comp_light.exr using Guid(fb911be89d66b4c4580fbf87717746a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b4784ebef4386e60abe3ff22884683') in 0.031212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-12_comp_light.exr
+  artifactKey: Guid(7933ccf832e24574ba96392181720198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-12_comp_light.exr using Guid(7933ccf832e24574ba96392181720198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b8a613f057a8f443d06c65696fc964') in 0.025821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-9_comp_light.exr
+  artifactKey: Guid(44976a3cd4e25a8498ebe380de887ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-9_comp_light.exr using Guid(44976a3cd4e25a8498ebe380de887ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48a6958b60d37be6007584910b9ac8a') in 0.028159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-20_comp_dir.png
+  artifactKey: Guid(9a00ad1a5729c5546956c693880c3f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-20_comp_dir.png using Guid(9a00ad1a5729c5546956c693880c3f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce41e33f1e8bc98d6b3115c8948a384') in 0.027388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-13_comp_dir.png
+  artifactKey: Guid(12e8b95095f38634a995322a97b52067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-13_comp_dir.png using Guid(12e8b95095f38634a995322a97b52067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeb5321f430d3275c6d40f0341b6f0e') in 0.028717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-32_comp_dir.png
+  artifactKey: Guid(9a5aa1917dfbf5e4b8c9c963674a9886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-32_comp_dir.png using Guid(9a5aa1917dfbf5e4b8c9c963674a9886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4f96d3979eb809c6be65a938cd89c5') in 0.033150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-35_comp_dir.png
+  artifactKey: Guid(abfda934efbf76f4885d8173b4259fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-35_comp_dir.png using Guid(abfda934efbf76f4885d8173b4259fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ad64eaa5cdc1494145a28800dd879f') in 0.030285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_light.exr
+  artifactKey: Guid(2803f616fc582c3429db62491a0aa66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_light.exr using Guid(2803f616fc582c3429db62491a0aa66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa1c1607e78a2d437b05f70d785d14c') in 0.029547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-34_comp_light.exr
+  artifactKey: Guid(0f3697a5af1087b4d90e0047ef70a549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-34_comp_light.exr using Guid(0f3697a5af1087b4d90e0047ef70a549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8527b84fa888acd72812278b4e330c1') in 0.031871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-39_comp_light.exr
+  artifactKey: Guid(b71228915297dda4a8d982e4fe8c6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-39_comp_light.exr using Guid(b71228915297dda4a8d982e4fe8c6614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c890b79c8f8006266161dd041dac508d') in 0.025712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-34_comp_dir.png
+  artifactKey: Guid(30606f437fb09934489b1923c04e3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-34_comp_dir.png using Guid(30606f437fb09934489b1923c04e3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2259a97ec043d30fa3e21f17983859') in 0.033937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-31_comp_light.exr
+  artifactKey: Guid(78994eb85e93e544d8697d72c5f7a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-31_comp_light.exr using Guid(78994eb85e93e544d8697d72c5f7a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff5ce0755a65c630eb76546d5ee324') in 0.049713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_dir.png
+  artifactKey: Guid(42444318fc697a84f90107000fcf55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-40_comp_dir.png using Guid(42444318fc697a84f90107000fcf55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab27e00c8f4298aa9fc8765f8ec5a614') in 0.041816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-47_comp_light.exr
+  artifactKey: Guid(72c98c291f2ad36488241918af734727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-47_comp_light.exr using Guid(72c98c291f2ad36488241918af734727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211dc1484996c2058b77e8ce4a83443a') in 0.033719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-51_comp_dir.png
+  artifactKey: Guid(68dfeb059715ed647838335b0e4f7d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-51_comp_dir.png using Guid(68dfeb059715ed647838335b0e4f7d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020db3dff9a291f2542c50ab787fd218') in 0.034414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-51_comp_light.exr
+  artifactKey: Guid(7c5d242dc58b8a649b32b84112114e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-51_comp_light.exr using Guid(7c5d242dc58b8a649b32b84112114e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491acc382ce41c84bed970950896680d') in 0.032794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-45_comp_light.exr
+  artifactKey: Guid(9f0d700895201664d8e45c4eb62eca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-45_comp_light.exr using Guid(9f0d700895201664d8e45c4eb62eca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4171b5a8a13ab726e924faa608eaf8fe') in 0.033999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-46_comp_dir.png
+  artifactKey: Guid(106f7a949aad4b143b66a173d46054e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-46_comp_dir.png using Guid(106f7a949aad4b143b66a173d46054e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160350cc6b8241581de94bc481054ddc') in 0.028078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-53_comp_dir.png
+  artifactKey: Guid(319ad02376aa81d43a6f0980f431f183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-53_comp_dir.png using Guid(319ad02376aa81d43a6f0980f431f183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1689ce7be591a5d687a118c227b90e') in 0.029977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-48_comp_dir.png
+  artifactKey: Guid(c4dae08c070de8348a92d56feaf251bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-48_comp_dir.png using Guid(c4dae08c070de8348a92d56feaf251bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07b93080cca563eff1452d0a69dff30') in 0.031091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-44_comp_light.exr
+  artifactKey: Guid(b27a54208e2cf274682c061452bd4513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-44_comp_light.exr using Guid(b27a54208e2cf274682c061452bd4513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7928fc007d4983ab36537ce1e3d440b') in 0.037257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-52_comp_dir.png
+  artifactKey: Guid(5a0e75b1b3dc4c64fa52f2c4261f5383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-52_comp_dir.png using Guid(5a0e75b1b3dc4c64fa52f2c4261f5383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf2f16121ef16a177cc2159d04a1bd0') in 0.028919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-50_comp_light.exr
+  artifactKey: Guid(8a296e913f0323847825f32925c32079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-50_comp_light.exr using Guid(8a296e913f0323847825f32925c32079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bf8f4222a9693aec6f06c19edbea6') in 0.033255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-42_comp_dir.png
+  artifactKey: Guid(6f999c23381fee443932f8c44031ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-42_comp_dir.png using Guid(6f999c23381fee443932f8c44031ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6410e49321acccab39aa3eb0eac068') in 0.033492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-41_comp_dir.png
+  artifactKey: Guid(719e488c0a67de6468afe0471501fb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-41_comp_dir.png using Guid(719e488c0a67de6468afe0471501fb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2adf920de7589e1a04fd77195d4ecf') in 0.030575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-49_comp_light.exr
+  artifactKey: Guid(53c149206dbc07c468458a8001ecf367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-49_comp_light.exr using Guid(53c149206dbc07c468458a8001ecf367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebebf16ad6d5bf5dc7979be3e98c93d') in 0.060758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-33_comp_dir.png
+  artifactKey: Guid(edf9212680b9e2447908c71156662d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-33_comp_dir.png using Guid(edf9212680b9e2447908c71156662d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a43528dd37df157c47ce2c50960ace') in 0.032488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-36_comp_light.exr
+  artifactKey: Guid(e1c62131c6e7fe44093cb9c4641abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-36_comp_light.exr using Guid(e1c62131c6e7fe44093cb9c4641abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7078efde0988a8586b52d519b49513b5') in 0.030685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.469254 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-54_comp_dir.png
+  artifactKey: Guid(e0175c041924ec043a7fec78821d6e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-54_comp_dir.png using Guid(e0175c041924ec043a7fec78821d6e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a98706a3698549006a5d1bc86a3b66') in 0.035499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-58_comp_light.exr
+  artifactKey: Guid(84276e019279e6a4d8c03fa7ce90f47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-58_comp_light.exr using Guid(84276e019279e6a4d8c03fa7ce90f47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e40bc6296d60e8c873c996d663918d') in 0.029624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-71_comp_light.exr
+  artifactKey: Guid(4e08afccb57534f42ad72700671fd175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-71_comp_light.exr using Guid(4e08afccb57534f42ad72700671fd175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c285204895b72cb364e2b097e4dd68e') in 0.041683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-59_comp_light.exr
+  artifactKey: Guid(5bbfefd2a81477d4abd6a29625418d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-59_comp_light.exr using Guid(5bbfefd2a81477d4abd6a29625418d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1d1dcd5d22baa03941584a35b376a') in 0.031660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-71_comp_dir.png
+  artifactKey: Guid(70c279484b4e97748bac3a94dce8b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-71_comp_dir.png using Guid(70c279484b4e97748bac3a94dce8b063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dea8e2c33bb798d8bbc89b4a2747d87') in 0.029958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-68_comp_dir.png
+  artifactKey: Guid(97ed4f908cc4eac4ab349883c8fadfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-68_comp_dir.png using Guid(97ed4f908cc4eac4ab349883c8fadfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14878f2081e20e0188bb72d72146a685') in 0.034296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-58_comp_dir.png
+  artifactKey: Guid(15304a4c69599a341aa1a4cecf341084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-58_comp_dir.png using Guid(15304a4c69599a341aa1a4cecf341084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562ef7290791a675c071be23c72bd503') in 0.031057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-55_comp_light.exr
+  artifactKey: Guid(2cef999389899834a972126f1911e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-55_comp_light.exr using Guid(2cef999389899834a972126f1911e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d4005cad1b8466343115e4ceb522fc') in 0.038643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_dir.png
+  artifactKey: Guid(3c228817128fab84999884ae175435c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_dir.png using Guid(3c228817128fab84999884ae175435c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fba0112e527094eb1a966028abee094') in 0.059797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-66_comp_dir.png
+  artifactKey: Guid(21385a9e94beefa4696f2d6fe05f375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-66_comp_dir.png using Guid(21385a9e94beefa4696f2d6fe05f375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ba08b555f63bf129c197db339e4620') in 0.030201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-70_comp_dir.png
+  artifactKey: Guid(06f9955dc9aa6bc419bc7182f8a53d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-70_comp_dir.png using Guid(06f9955dc9aa6bc419bc7182f8a53d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189da30b31dc302a473e15aeead6eb3d') in 0.039051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-67_comp_dir.png
+  artifactKey: Guid(ad70980a2a1954b488228fbef1f77fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-67_comp_dir.png using Guid(ad70980a2a1954b488228fbef1f77fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee09472afb27d75a5a954b39ff0c618') in 0.038732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-69_comp_dir.png
+  artifactKey: Guid(19efcaa2b7df4264f86b16ffc2635d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-69_comp_dir.png using Guid(19efcaa2b7df4264f86b16ffc2635d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c0ed1b6e9ad0c0aa6923c1e700b7cd') in 0.033221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-68_comp_light.exr
+  artifactKey: Guid(eb46378d3f1f0724d896ef7974df6b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-68_comp_light.exr using Guid(eb46378d3f1f0724d896ef7974df6b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f9e24e33a949dcef5b79297e2fb73c') in 0.031282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-62_comp_dir.png
+  artifactKey: Guid(71d1d2cbc60dccf41a08db1763ec4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-62_comp_dir.png using Guid(71d1d2cbc60dccf41a08db1763ec4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d0a73d401c2892e8073d99c44e8c1') in 0.030973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-64_comp_dir.png
+  artifactKey: Guid(0cf50fcc505fcd549a405e30ed2f1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-64_comp_dir.png using Guid(0cf50fcc505fcd549a405e30ed2f1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643d14fc2920618ce48066114dd9f65b') in 0.034567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_light.exr
+  artifactKey: Guid(8784db8c9d54d8e4ebab8b6b33260645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-61_comp_light.exr using Guid(8784db8c9d54d8e4ebab8b6b33260645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566e1c3ad23314590e3c8d8376d2b791') in 0.032903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Santuary/Scenes/Sanctuary/Lightmap-56_comp_dir.png
+  artifactKey: Guid(cab11ea69a7c2944695ffd58a7d211c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Santuary/Scenes/Sanctuary/Lightmap-56_comp_dir.png using Guid(cab11ea69a7c2944695ffd58a7d211c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5374b8eac3c3814843e64269aabebc') in 0.030784 seconds 
