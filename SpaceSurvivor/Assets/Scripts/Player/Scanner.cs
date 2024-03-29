@@ -9,9 +9,9 @@ public class Scanner : MonoBehaviour
     public RaycastHit[] targets;
     public Transform nearestTarget;
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        targets = Physics.SphereCastAll(transform.position, scanRange, Vector3.up, 0, targetLayer);
+        targets = Physics.SphereCastAll(transform.position, scanRange, Vector3.forward, 0, targetLayer);
         nearestTarget = GetNearest();
     }
 
@@ -26,7 +26,7 @@ public class Scanner : MonoBehaviour
             Vector3 targetPos = target.transform.position;
             float curDiff = Vector3.Distance(myPos, targetPos);
 
-            if(curDiff > diff)
+            if (curDiff < diff)
             {
                 diff = curDiff;
                 result = target.transform;

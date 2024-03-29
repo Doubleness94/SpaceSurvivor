@@ -10,7 +10,7 @@ public class PlayerMovement : LivingEntity
     public bool isMove = false;
     private Rigidbody playerRigid;
     public GameObject[] charObjs;
-    List<GameObject>[] charList;
+    public List<GameObject>[] charList;
 
     public Vector3 moveVec;
     public Animator[] anims;
@@ -20,6 +20,7 @@ public class PlayerMovement : LivingEntity
         playerRigid = GetComponent<Rigidbody>();
         anims = GetComponentsInChildren<Animator>();
         charObjs = GameObject.FindGameObjectsWithTag("Character");
+        CharAdd();
     }
 
     private void Update()
@@ -48,6 +49,12 @@ public class PlayerMovement : LivingEntity
     private void FixedUpdate()
     {
         Move();
+        if (Input.GetKey(KeyCode.V))
+        {
+            anims = GetComponentsInChildren<Animator>();
+            charObjs = GameObject.FindGameObjectsWithTag("Character");
+            CharAdd();
+        }
     }
 
     private void Move()
@@ -55,6 +62,45 @@ public class PlayerMovement : LivingEntity
         moveVec = new Vector3(hAxis, 0, vAxis).normalized;
         transform.position += moveVec * moveSpeed * Time.deltaTime;
     }
+
+    public void CharAdd()
+    {
+        CharList();
+        Position();
+    }
+
+    private void CharList()
+    {
+        charList = new List<GameObject>[charObjs.Length];
+        for(int i = 0; i < charObjs.Length; i++)
+        {
+            charList[i] = new List<GameObject>();
+        }
+    }
+
+    private void Position()
+    {
+        if(charList.Length == 1)
+        {
+            Transform charTrans = charObjs[0].transform;
+            charTrans.localPosition = Vector3.zero;
+            charTrans.localRotation = Quaternion.identity;
+        }
+        if(charList.Length >= 2)
+        {
+            for(int i = 0; i < charList.Length; i++)
+            {
+                Transform charTrans = charObjs[i].transform;
+                charTrans.localPosition = Vector3.zero;
+                charTrans.localRotation = Quaternion.identity;
+
+                Vector3 rotVec = Vector3.up * 360 * i / charList.Length;
+                charTrans.Rotate(rotVec);
+                charTrans.Translate(charTrans.forward * 1f, Space.World);
+            }
+        }
+    }
+
 
     protected override void OnEable()
     {
